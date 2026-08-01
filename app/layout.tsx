@@ -27,7 +27,7 @@ export default function RootLayout({
     <html lang="zh-CN">
       <head>
         <Script
-          src="https://lf-cdn.coze.cn/obj/unpkg/flow-platform/chat-app-sdk/1.2.0-beta.20/libs/cn/index.js"
+          src="https://lf-cdn.coze.cn/obj/unpkg/flow-platform/chat-app-sdk/1.2.0-beta.19/libs/cn/index.js"
           strategy="beforeInteractive"
         />
       </head>
