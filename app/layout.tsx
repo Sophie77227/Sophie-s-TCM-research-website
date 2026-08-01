@@ -45,9 +45,9 @@ export default function RootLayout({
               },
               auth: {
                 type: 'token',
-                token: 'pat_bweyCeML6tbCBTDvp0EgkoXD6TE7hZTCdUGDzUVGAXBmGDrRXU8t2FcEa1E2HeKN',
+                token: 'pat_7YmesA8VESpr6eeAe2cUqNLQhUaQly3QI5jSCkwZnnojF6L0CrcjQzONhnEKhBKj',
                 onRefreshToken: function () {
-                  return 'pat_bweyCeML6tbCBTDvp0EgkoXD6TE7hZTCdUGDzUVGAXBmGDrRXU8t2FcEa1E2HeKN';
+                  return 'pat_7YmesA8VESpr6eeAe2cUqNLQhUaQly3QI5jSCkwZnnojF6L0CrcjQzONhnEKhBKj';
                 }
               }
             });
