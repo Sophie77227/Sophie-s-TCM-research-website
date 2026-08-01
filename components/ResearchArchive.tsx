@@ -1,3 +1,7 @@
+<section
+  id="research"
+  className="bg-[#F7F4EE] px-8 py-32"
+></section>
 export default function ResearchArchive() {
   const projects = [
     {
