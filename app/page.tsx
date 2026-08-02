@@ -6,6 +6,7 @@ import ResearchArchive from "@/components/ResearchArchive";
 import FieldNotes from "@/components/FieldNotes";
 import Reflection from "@/components/Reflection";
 import Contact from "@/components/Contact";
+import HerbalWhisper from "@/components/HerbalWhisper";
 
 
 export default function Home(){
@@ -23,6 +24,8 @@ return (
 <Journey />
 
 <ResearchArchive />
+
+<HerbalWhisper /> 
 
 <FieldNotes />
 
