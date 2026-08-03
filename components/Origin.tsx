@@ -13,9 +13,7 @@ export default function Origin() {
 
 
         <h2 className="font-serif text-5xl md:text-6xl leading-tight mb-12">
-          Where it
-          <br />
-          all started.
+          Where it all started.
         </h2>
 
 
@@ -32,7 +30,7 @@ export default function Origin() {
 
 
             <p className="text-gray-600 leading-loose text-lg mt-8">
-              I start digging into traditional Chinese medicine and nutrition, exploring how different ingredients possess various characteristics. The more I learned, the more I realize that everything is connected: food, immune systems, health, lifestyle... I wonder if the improvement of all health conditions in human body can contribute to lower possibilities of diseases and illnesses.
+              I start digging into traditional Chinese medicine and nutrition and exploring how different ingredients possess various characteristics a few years ago. The more I learned, the more I realized that everything is connected: food, immune systems, health, lifestyle... I wonder if the improvement of all health conditions in human body can contribute to lower possibilities of diseases and illnesses.
             </p>
 
           </div>
