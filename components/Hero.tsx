@@ -17,8 +17,7 @@ export default function Hero() {
         </p>
 
         <p className="mt-8 max-w-xl text-gray-500 leading-relaxed">
-          Exploring the intersection of traditional knowledge,
-          biological science, and human-centered health innovation.
+          When traditional Chinese wisdom says: "Wait, science actually explains this??"
         </p>
 
       </div>

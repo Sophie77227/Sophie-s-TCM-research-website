@@ -105,7 +105,7 @@ export default function HerbalWhisper() {
         <p className="mt-4 text-sm text-gray-400">
   Herbal Whisper provides educational perspectives based on Traditional
   Chinese Medicine. It does not replace professional medical advice.
-</p>
+        </p>
 
 
         <div

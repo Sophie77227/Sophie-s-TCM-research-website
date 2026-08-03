@@ -13,9 +13,9 @@ export default function Origin() {
 
 
         <h2 className="font-serif text-5xl md:text-6xl leading-tight mb-12">
-          Where tradition
+          Where it
           <br />
-          meets curiosity.
+          all started.
         </h2>
 
 
@@ -32,10 +32,7 @@ export default function Origin() {
 
 
             <p className="text-gray-600 leading-loose text-lg mt-8">
-              Through studying traditional Chinese medicine,
-              nutrition, and biological systems, I began
-              discovering connections between food, culture,
-              and scientific innovation.
+              I start digging into traditional Chinese medicine and nutrition, exploring how different ingredients possess various characteristics. The more I learned, the more I realize that everything is connected: food, immune systems, health, lifestyle... I wonder if the improvement of all health conditions in human body can contribute to lower possibilities of diseases and illnesses.
             </p>
 
           </div>
@@ -45,8 +42,7 @@ export default function Origin() {
           <div className="border border-gray-300 bg-white p-8">
 
             <p className="font-serif italic text-xl leading-relaxed">
-              "Every ingredient carries a story.
-              Every discovery begins with curiosity."
+              However, I know that I didn't have enough exposure to professional medicine, so I focused on something I'm good at: Baking. I started to explore the functions of different ingredients and understand how they can serve our body.
             </p>
 
           </div>
