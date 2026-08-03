@@ -97,9 +97,7 @@ export default function HerbalWhisper() {
           max-w-2xl
           "
         >
-          Explore your everyday experiences through
-          Traditional Chinese Medicine perspectives,
-          food therapy, and lifestyle wisdom.
+          An AI agent built on my own knowledge database. Try telling the agent what syptoms are you experiencing lately and it will provide explanations and food advice.
         </p>
 
         <p className="mt-4 text-sm text-gray-400">

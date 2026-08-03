@@ -22,10 +22,10 @@ export default function ResearchArchive() {
 
     {
       number: "03",
-      title: "Traditional Medicine AI",
-      subtitle: "Health Education Technology",
+      title: "The Effect of Moxibustion on Blood Sugar Level",
+      subtitle: "Independent Biology Research",
       description:
-        "Developing an educational AI assistant that connects traditional Chinese medicine concepts with modern health communication.",
+        "Experimenting with the effect of moxibustion - a traditional Chinese medicine therapy that uses heat from burning dried mugwort to stimulate specific acupoints on the body - on blood sugar level after a standardized meal. Moxibustion is applied to an acupoint called Zusanli, which improves digestion.",
     },
   ];
 
