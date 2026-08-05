@@ -18,6 +18,7 @@ export default function ResearchArchive() {
       subtitle: "Bacterial Cellulose Research",
       description:
         "Engineering microbial systems to increase bacterial cellulose production as a sustainable alternative material.",
+        link: "https://dailysophie7.wordpress.com/2026/08/05/can-traditional-chinese-medicine-influence-blood-sugar/",
     },
 
     {
