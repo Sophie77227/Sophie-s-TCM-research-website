@@ -8,24 +8,19 @@ export default function Reflection() {
 
 
         <p className="text-sm tracking-[0.35em] text-gray-500 mb-10">
-          REFLECTION
+          Lastly...
         </p>
 
 
         <h2 className="font-serif text-5xl md:text-6xl leading-tight">
-          Science becomes meaningful
+          Following the pattern, 
           <br />
-          when it reaches people.
+          wherever it leads.
         </h2>
 
 
         <p className="mt-12 text-lg text-gray-600 leading-loose">
-          Through research, writing, and education,
-          I have learned that knowledge is not only
-          about discovery. It is about understanding
-          people, communicating ideas, and creating
-          connections between different ways of seeing
-          the world.
+          What fascinates me most is how the same symptom can be described in two completely different systems, and both make sense in their own way. Food in TCM is especially captivating to me, because I get in touch with food a lot through baking. Every ingredient carries a thermal nature, a flavor profile, and an affinity for specific organ systems. It feels like decoding an ancient language. That kind of thinking pattern lead me to an entirely different perspectives when I observe health and medicine, and exploring more of these patterns keeps me curious and drives me to learn more about it.
         </p>
 
 
