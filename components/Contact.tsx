@@ -13,7 +13,7 @@ export default function Contact() {
 
 
         <h2 className="font-serif text-4xl">
-          Let's continue the conversation.
+          Email: sophiexu2022@163.com
         </h2>
 
 
