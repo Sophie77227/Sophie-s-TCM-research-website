@@ -6,7 +6,7 @@ export default function ResearchArchive() {
       subtitle: "Independent Biology Research",
       description:
         "Exploring the relationship between BCM-7, digestive enzymes, and personalized nutrition through biological mechanisms.",
-      link: "/Pioneer_Paper.pdf",
+      link: "/A1_Beta_Casein_Research_Paper.pdf",
     },
 
     {
@@ -15,6 +15,7 @@ export default function ResearchArchive() {
       subtitle: "Bacterial Cellulose Research",
       description:
         "Engineering microbial systems to increase bacterial cellulose production as a sustainable alternative material.",
+      link: "/Synbio_Cellulose_Research.pdf",
     },
 
     {
