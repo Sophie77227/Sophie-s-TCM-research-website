@@ -1,24 +1,27 @@
 export default function FieldNotes() {
   const notes = [
     {
-      title: "Food as Medicine",
+      title: "Knowledge Database",
       description:
-        "Exploring the relationship between traditional ingredients, nutrition, and health through evidence-based recipes.",
-      tag: "Food Science",
+        "A growing collection of everything I've studied about traditional Chinese medicine. It includes books that I've looked into, common symptoms and the reasons behind them, and basic knowledge about our body. This database serves as both a personal reference and a resource for anyone curious about how TCM understands the body.",
+      tag: "Database",
+      link: null,
     },
 
     {
       title: "Kitchen Experiments",
       description:
-        "Documenting baking experiments that combine cultural ingredients with principles of chemistry and biology.",
-      tag: "Experiment",
+        "On my blog, I blend Traditional Chinese Medicine ingredients with various Western pastries and create recipes that balance taste with nutritional value. Each post explores the properties of key ingredients from the perspective of TCM, such as their warming or cooling nature and their relationship with different body systems, alongside a complete recipe.",
+      tag: "TCM Recipes",
+      link: "https://dailysophie7.wordpress.com/?_gl=1*tcqd72*_gcl_au*OTMzOTU2NDI4LjE3ODM5OTYzNDAuMTI3MTE2MjY2MC4xNzg0MDgxODY0LjE3ODQwODE4NjU.",
     },
 
     {
       title: "Health Communication",
       description:
-        "Creating educational content that translates complex biological ideas into accessible stories.",
+        "On Instagram, I share insights on anxiety from a Traditional Chinese Medicine perspective, including how food therapy and lifestyle practices rooted in TCM can offer support. My goal is to make these ideas clear, grounded, and accessible, so people can better understand their own experiences.",
       tag: "Education",
+      link: "https://www.instagram.com/stilllllmind/",
     },
   ];
 
@@ -38,7 +41,7 @@ export default function FieldNotes() {
 
 
         <h2 className="font-serif text-5xl md:text-6xl mb-16">
-          Observations & experiments.
+          Things I've been cooking up.
         </h2>
 
 
@@ -78,9 +81,44 @@ export default function FieldNotes() {
               </div>
 
 
-              <p className="text-sm text-gray-400 mt-8">
-                View entry →
-              </p>
+              {note.link ? (
+                <a
+                  href={note.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="
+                  group
+                  text-sm
+                  text-gray-400
+                  mt-8
+                  flex
+                  items-center
+                  gap-2
+                  hover:text-black
+                  transition
+                  "
+                >
+                  View entry
+                  <span
+                    className="
+                    transition-transform
+                    group-hover:translate-x-1
+                    "
+                  >
+                    →
+                  </span>
+                </a>
+              ) : (
+                <p
+                  className="
+                  text-sm
+                  text-gray-300
+                  mt-8
+                  "
+                >
+                  Coming soon
+                </p>
+              )}
 
 
             </article>
