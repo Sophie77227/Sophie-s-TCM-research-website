@@ -3,9 +3,9 @@ export default function FieldNotes() {
     {
       title: "Knowledge Database",
       description:
-        "A growing collection of everything I've studied about traditional Chinese medicine. It includes books that I've looked into, common symptoms and the reasons behind them, and basic knowledge about our body. This database serves as both a personal reference and a resource for anyone curious about how TCM understands the body.",
+        "A growing collection of everything I've studied through the lens of traditional Chinese medicine. It includes every ingredient's properties, functions, and combinations with other ingredients. This is the database used in the AI Agent.",
       tag: "Database",
-      link: null,
+      link: "/TCMdatabase.pdf",
     },
 
     {
