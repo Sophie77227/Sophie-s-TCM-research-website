@@ -66,7 +66,7 @@ export default function HerbalWhisper() {
 
           <div className="overflow-hidden rounded-2xl border border-stone-300 bg-[#eee8dc]">
             <iframe
-              src="https://www.coze.cn/s/DPN26wrad9E/"
+              src="https://www.coze.cn/web?uri=2627166454436810_0-data_volume%2F7659976508513091903-files%2F%E6%89%80%E6%9C%89%E5%AF%B9%E8%AF%9D%2F%E4%B8%BB%E5%AF%B9%E8%AF%9D%2FHerbal-Whisper%2Flanding-page.html&is_claw=1"
               className="h-[600px] w-full border-0"
               title="Herbal Whisper AI Agent"
               allow="microphone"
