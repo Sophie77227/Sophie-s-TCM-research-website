@@ -1,191 +1,80 @@
 "use client";
 
-import { useState } from "react";
-
 export default function HerbalWhisper() {
-
-  const [message, setMessage] = useState("");
-  const [reply, setReply] = useState("");
-  const [loading, setLoading] = useState(false);
-
-
-  async function askHerbalWhisper() {
-
-    if (!message.trim()) return;
-
-    setLoading(true);
-    setReply("");
-
-    try {
-
-      const response = await fetch("/api/herbal-whisper", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-
-        body: JSON.stringify({
-          message,
-        }),
-      });
-
-
-      const data = await response.json();
-
-      setReply(data.reply);
-
-
-    } catch (error) {
-
-      setReply(
-        "Sorry, Herbal Whisper is temporarily unavailable."
-      );
-
-    }
-
-
-    setLoading(false);
-
-  }
-
-
   return (
-
     <section
       id="herbal-whisper"
-      className="
-      py-32
-      px-8
-      bg-[#f6f2ea]
-      "
+      className="bg-[#f6f2ea] px-6 py-24 md:px-12"
     >
+      <div className="mx-auto max-w-6xl">
 
-      <div
-        className="
-        max-w-4xl
-        mx-auto
-        "
-      >
+        {/* Header */}
+        <div className="mb-12">
+          <p className="mb-4 text-sm tracking-[0.25em] text-stone-500">
+            AI × TRADITIONAL CHINESE MEDICINE
+          </p>
 
-        <p
-          className="
-          text-sm
-          tracking-[0.35em]
-          text-gray-500
-          "
-        >
-          AI WELLNESS COMPANION
-        </p>
+          <h2 className="font-serif text-4xl text-stone-900 md:text-6xl">
+            Herbal Whisper
+          </h2>
+        </div>
 
+        {/* Description */}
+        <div className="mb-16 max-w-2xl">
+          <p className="text-base leading-8 text-stone-700">
+            I built an AI agent using Coze to make my TCM research more
+            interactive. I shared it with my grandmother, her sisters, and
+            their friends, who are familiar with TCM and interested in
+            health. Their feedback helped me refine the agent and its
+            responses.
+          </p>
+        </div>
 
-        <h2
-          className="
-          font-serif
-          text-6xl
-          mt-6
-          "
-        >
-          Herbal Whisper
-        </h2>
-
-
-        <p
-          className="
-          mt-8
-          text-gray-600
-          leading-loose
-          max-w-2xl
-          "
-        >
-          An AI agent built on my own knowledge database. Try telling the agent what syptoms are you experiencing lately and it will provide explanations and food advice.
-        </p>
-
-        <p className="mt-4 text-sm text-gray-400">
-  Herbal Whisper provides educational perspectives based on Traditional
-  Chinese Medicine. It does not replace professional medical advice.
-        </p>
-
-
-        <div
-          className="
-          mt-12
-          bg-white
-          border
-          border-gray-200
-          p-8
-          "
-        >
-
-          <textarea
-
-            value={message}
-
-            onChange={(e)=>setMessage(e.target.value)}
-
-            placeholder="
-Describe what you are experiencing...
-Example: I feel tired, bloated after meals, and prefer warm drinks.
-            "
-
-            className="
-            w-full
-            h-32
-            p-4
-            border
-            border-gray-200
-            resize-none
-            outline-none
-            "
-          />
-
-
-          <button
-
-            onClick={askHerbalWhisper}
-
-            className="
-            mt-6
-            px-8
-            py-3
-            bg-black
-            text-white
-            "
-          >
-
-            {loading
-              ? "Listening..."
-              : "Ask Herbal Whisper"
-            }
-
-          </button>
-
-
-          {reply && (
-
-            <div
-              className="
-              mt-10
-              border-t
-              pt-8
-              whitespace-pre-line
-              text-gray-700
-              leading-loose
-              "
-            >
-
-              {reply}
-
+        {/* Poster */}
+        <div className="mb-20">
+          <div className="mb-6 flex items-end justify-between">
+            <div>
+              <p className="text-sm tracking-[0.2em] text-stone-500">
+                INTRODUCING HERBAL WHISPER
+              </p>
+              <p className="mt-2 text-sm text-stone-500">
+                A poster I created to introduce the agent to my family and
+                their friends.
+              </p>
             </div>
+          </div>
 
-          )}
+          <div className="flex justify-center rounded-2xl border border-stone-300 bg-[#eee8dc] p-6 md:p-10">
+            <img
+              src="/herbal-whisper-poster.jpg"
+              alt="Poster introducing the Herbal Whisper AI agent"
+              className="max-h-[800px] w-auto max-w-full rounded-lg object-contain shadow-sm"
+            />
+          </div>
+        </div>
 
+        {/* AI Agent */}
+        <div>
+          <div className="mb-6">
+            <p className="text-sm tracking-[0.2em] text-stone-500">
+              TRY THE AGENT
+            </p>
+            <p className="mt-2 text-sm text-stone-500">
+              Explore Herbal Whisper below.
+            </p>
+          </div>
 
+          <div className="overflow-hidden rounded-2xl border border-stone-300 bg-[#eee8dc]">
+            <iframe
+              src="YOUR_COZE_EMBED_URL"
+              className="h-[600px] w-full border-0"
+              title="Herbal Whisper AI Agent"
+              allow="microphone"
+            />
+          </div>
         </div>
 
       </div>
-
     </section>
-
   );
-
 }
