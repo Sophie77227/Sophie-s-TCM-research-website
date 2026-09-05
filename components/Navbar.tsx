@@ -13,6 +13,7 @@ export default function Navbar() {
           <a href="#research">Research</a>
           <a href="#journey">TCM Notes</a>
           <a href="#notes">Notes</a>
+          <a href="#herbal-whisper">AI Agent</a>
           <a href="#contact">Contact</a>
         </div>
 
