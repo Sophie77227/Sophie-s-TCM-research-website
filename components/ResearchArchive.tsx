@@ -6,7 +6,7 @@ export default function ResearchArchive() {
       title: "A1 β-Casein Intolerance",
       subtitle: "Independent Biology Research",
       description:
-        "Exploring the relationship between BCM-7, digestive enzymes, and personalized nutrition.",
+        "Exploring the relationship between BCM-7, digestive enzymes, and personalized nutrition. Revised with multiple professors.",
       link: "/A1_Beta_Casein_Research_Paper.pdf",
       type: "PDF",
     },
