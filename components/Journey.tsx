@@ -1,3 +1,4 @@
+
 export default function Journey() {
   return (
     <section
@@ -14,20 +15,19 @@ export default function Journey() {
           What I’ve learned.
         </h2>
 
-        <p className="text-gray-600 leading-loose text-lg max-w-2xl mb-20">
+        <p className="text-gray-600 leading-loose text-lg max-w-2xl mb-16">
           As I explored Traditional Chinese Medicine, I started to
           build my own understanding of how the body, food, and
-          everyday life are connected. Here are some of the ideas
-          that have shaped the way I think about health.
+          everyday life are connected.
         </p>
 
-        {/* TCM knowledge table will go here */}
-        <div className="border-t border-black/20">
-
-          <div className="py-10 text-gray-400 text-sm tracking-wide">
-            TCM knowledge table — coming soon
-          </div>
-
+        {/* TCM Mind Map */}
+        <div className="w-full">
+          <img
+            src="/TCM-knowledge-mindmap.png"
+            alt="Mind map of my Traditional Chinese Medicine knowledge"
+            className="w-full h-auto"
+          />
         </div>
 
       </div>
