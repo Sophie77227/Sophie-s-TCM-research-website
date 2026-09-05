@@ -37,7 +37,7 @@ export default function Origin() {
             />
 
             <p className="mt-4 text-sm text-gray-500">
-              A Basque cheesecake I made.
+              A Basque cheesecake I made. This one contains fermented rice, an ingredient traditionally believed in TCM to support the spleen and stomach.
             </p>
           </div>
 
