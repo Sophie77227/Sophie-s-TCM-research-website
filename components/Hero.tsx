@@ -8,9 +8,15 @@ export default function Hero() {
           PERSONAL ARCHIVE
         </p>
 
-        <h1 className="font-serif text-7xl mb-6">
+        <h1 className="font-serif text-7xl mb-5">
           Zihan Xu
         </h1>
+
+        <img
+          src="/me.jpg"
+          alt="Zihan Xu"
+          className="w-16 h-16 object-cover rounded-full mx-auto mb-8"
+        />
 
         <p className="text-lg text-gray-600 tracking-widest">
           FOOD · HEALTH · TRADITION · SCIENCE
@@ -25,3 +31,4 @@ export default function Hero() {
     </section>
   );
 }
+
