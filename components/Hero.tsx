@@ -1,3 +1,4 @@
+
 export default function Hero() {
   return (
     <section className="min-h-screen flex items-center justify-center bg-[#F7F4EE] px-8">
@@ -8,14 +9,15 @@ export default function Hero() {
           PERSONAL ARCHIVE
         </p>
 
-        <h1 className="font-serif text-7xl mb-5">
+        <h1 className="font-serif text-7xl mb-6">
           Zihan Xu
         </h1>
 
+        {/* Profile picture */}
         <img
           src="/me.jpg"
           alt="Zihan Xu"
-          className="w-16 h-16 object-cover rounded-full mx-auto mb-8"
+          className="w-28 h-28 object-cover rounded-full mx-auto mb-8"
         />
 
         <p className="text-lg text-gray-600 tracking-widest">
