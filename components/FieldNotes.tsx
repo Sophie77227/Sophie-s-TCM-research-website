@@ -4,7 +4,7 @@ export default function FieldNotes() {
       id="notes"
       className="bg-[#eee8dc] px-8 py-32"
     >
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-4xl mx-auto">
         <p className="text-sm tracking-[0.35em] text-gray-500 mb-8">
           BAKING CLUB - Bake No Limit
         </p>
@@ -20,50 +20,68 @@ export default function FieldNotes() {
         </p>
 
         {/* Baking Club Photos */}
-        <div className="grid grid-cols-2 gap-8">
+        <div className="space-y-14">
+
+          {/* Christmas Bazaar */}
           <div>
-            <img
-              src="/baking-club-1.jpg"
-              alt="Baking Club"
-              className="w-full h-auto"
-            />
-            <p className="mt-3 text-sm text-gray-500">
+            <div className="grid grid-cols-2 gap-5 max-w-2xl">
+              <img
+                src="/baking-club-1.jpg"
+                alt="Christmas Bazaar"
+                className="w-full h-auto"
+              />
+
+              <img
+                src="/baking-club-5.jpg"
+                alt="Christmas Bazaar"
+                className="w-full h-auto"
+              />
+            </div>
+
+            <p className="mt-3 text-sm text-gray-500 max-w-2xl">
               Making 1000 cookies for school on Christmas Bazaar. Won the Student Service Award.
             </p>
           </div>
 
-          <div>
+          {/* Baking Workshop */}
+          <div className="max-w-2xl">
             <img
               src="/baking-club-2.jpg"
-              alt="Baking Club"
+              alt="Baking workshop"
               className="w-full h-auto"
             />
+
             <p className="mt-3 text-sm text-gray-500">
-              Baking workshop - making snowflake crisp.
+              Baking workshop — making snowflake crisp.
             </p>
           </div>
 
-          <div>
+          {/* Christmas Bazaar Booth */}
+          <div className="max-w-2xl">
             <img
               src="/baking-club-3.jpg"
-              alt="Baking Club"
+              alt="Christmas Bazaar booth"
               className="w-full h-auto"
             />
+
             <p className="mt-3 text-sm text-gray-500">
               Our booth on Christmas Bazaar.
             </p>
           </div>
 
-          <div>
+          {/* Sports Event */}
+          <div className="max-w-2xl">
             <img
               src="/baking-club-4.jpg"
-              alt="Baking Club"
+              alt="Baking Club sports event collaboration"
               className="w-full h-auto"
             />
+
             <p className="mt-3 text-sm text-gray-500">
               Collaborating with parent organization for sports event.
             </p>
           </div>
+
         </div>
       </div>
     </section>
