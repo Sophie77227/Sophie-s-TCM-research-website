@@ -10,9 +10,8 @@ export default function Navbar() {
 
         <div className="flex gap-8 text-sm text-gray-600">
           <a href="#origin">Origin</a>
-          <a href="#research">Research</a>
           <a href="#journey">TCM Notes</a>
-          <a href="#notes">Notes</a>
+          <a href="#research">Research & Field Notes</a>
           <a href="#herbal-whisper">AI Agent</a>
           <a href="#contact">Contact</a>
         </div>

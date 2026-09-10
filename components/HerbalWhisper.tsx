@@ -30,26 +30,39 @@ export default function HerbalWhisper() {
           </p>
         </div>
 
-        {/* Poster */}
+        {/* Posters */}
         <div className="mb-20">
-          <div className="mb-6 flex items-end justify-between">
-            <div>
-              <p className="text-sm tracking-[0.2em] text-stone-500">
-                INTRODUCING HERBAL WHISPER
-              </p>
-              <p className="mt-2 text-sm text-stone-500">
-                A poster I created to introduce the agent to my family and
-                their friends.
-              </p>
-            </div>
+          <div className="mb-6">
+            <p className="text-sm tracking-[0.2em] text-stone-500">
+              INTRODUCING HERBAL WHISPER
+            </p>
+
+            <p className="mt-2 text-sm text-stone-500">
+              Posters I created to introduce the agent to my family, their
+              friends, and a wider audience.
+            </p>
           </div>
 
-          <div className="flex justify-center rounded-2xl border border-stone-300 bg-[#eee8dc] p-6 md:p-10">
-            <img
-              src="/herbal-whisper-poster.jpg"
-              alt="Poster introducing the Herbal Whisper AI agent"
-              className="max-h-[800px] w-auto max-w-full rounded-lg object-contain shadow-sm"
-            />
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+
+            {/* Chinese Poster */}
+            <div className="flex justify-center rounded-2xl border border-stone-300 bg-[#eee8dc] p-6 md:p-8">
+              <img
+                src="/herbal-whisper-poster.jpg"
+                alt="Chinese poster introducing the Herbal Whisper AI agent"
+                className="max-h-[700px] w-auto max-w-full rounded-lg object-contain shadow-sm"
+              />
+            </div>
+
+            {/* English Poster */}
+            <div className="flex justify-center rounded-2xl border border-stone-300 bg-[#eee8dc] p-6 md:p-8">
+              <img
+                src="/herbal-whisper-poster-english.jpg"
+                alt="English poster introducing the Herbal Whisper AI agent"
+                className="max-h-[700px] w-auto max-w-full rounded-lg object-contain shadow-sm"
+              />
+            </div>
+
           </div>
         </div>
 
@@ -59,6 +72,7 @@ export default function HerbalWhisper() {
             <p className="text-sm tracking-[0.2em] text-stone-500">
               TRY THE AGENT
             </p>
+
             <p className="mt-2 text-sm text-stone-500">
               Explore Herbal Whisper below.
             </p>
@@ -71,6 +85,20 @@ export default function HerbalWhisper() {
               title="Herbal Whisper AI Agent"
               allow="microphone"
             />
+          </div>
+
+          {/* Why Chinese? */}
+          <div className="mt-5 max-w-2xl">
+            <p className="text-sm font-medium tracking-wide text-stone-600">
+              Clarification
+            </p>
+
+            <p className="mt-2 text-sm leading-7 text-stone-500">
+              I built the agent in Chinese because my grandmother and her
+              friends are the people I originally wanted it to help. Making
+              it in a language they are comfortable with made the project
+              more useful to them.
+            </p>
           </div>
         </div>
 
